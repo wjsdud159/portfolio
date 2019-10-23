@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: NotoS;
+    font-weight: 200;
+    src: url("../font/NotoSans-Thin.eot");
+    src: local("※"), 
+        url("../font/NotoSans-Thin.woff") format("woff"),
+        url("../font/NotoSans-Thin.ttf") format("truetype");
+}
+@font-face{
+    font-family: NotoS;
+    font-weight: 400;
+    src: url("../font/NotoSans-Regular.eot");
+    src: local("※"), 
+        url("../font/NotoSans-Regular.woff") format("woff"),
+        url("../font/NotoSans-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: NotoS;
+    font-weight: 500;
+    src: url("../font/NotoSans-Medium.eot");
+    src: local("※"), 
+        url("../font/NotoSans-Medium.woff") format("woff"),
+        url("../font/NotoSans-Medium.ttf") format("truetype");
+}
+@font-face{
+    font-family: NotoS;
+    font-weight: 700;
+    src: url("../font/NotoSans-Bold.eot");
+    src: local("※"), 
+        url("../font/NotoSans-Bold.woff") format("woff"),
+        url("../font/NotoSans-Bold.ttf") format("truetype");
+}
+@font-face{
+    font-family: Neo;
+    font-weight: 400;
+    src: url("../font/Neothic.eot");
+    src: local("※"), 
+        url("../font/Neothic.eot") format("woff"),
+        url("../font/Neothic.ttf") format("truetype");
+}
+@font-face{
+    font-family: Monster;
+    font-weight: 400;
+    src: url("../font/Monster\ AG.ttf");
+    src: local("※"), 
+        url("../font/Monster\ AG.ttf") format("woff"),
+        url("../font/Monster\ AG.ttf") format("truetype");
+}
+@font-face{
+    font-family: UhBee;
+    font-weight: 400;
+    src: url("../font/UhBee\ puding.ttf");
+    src: local("※"), 
+        url("../font/UhBee\ puding.ttf") format("woff"),
+        url("../font/UhBee\ puding.ttf") format("truetype");
+}
+@font-face{
+    font-family:Cemetery;
+    font-weight: 400;
+    src: url("../font/Cemetery\ Picnic.otf  ");
+    src: local("※"), 
+        url("../font/Cemetery\ Picnic.otf") format("woff"),
+        url("../font/Cemetery\ Picnic.otf") format("truetype");
+}
+
+
+
+
+/* reset */
+body, ul , h1, h2, h3, h4, h5, h6, a, p, figure, figcaption, button, th, td,section {margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%; font-weight: normal;}
+header, nav, aside, section, article, footer {display: block;}
+body {color: #000;}
+ul {list-style: none;}
+a:link, a:visited, a:hover, a:active {text-decoration: none; color: inherit;}
+button {background: none; border: none; cursor: pointer;}
+img {vertical-align: top; border: none; max-width:100%;}
+strong {font-style: normal; font-weight: normal;}
+
+
+/* common class */
+.clearfix {content:''; display: block; clear: both;}
+.clearfix:after {content:''; display: block; clear: both;}
+.blind {font-size: 0; line-height: 0; width: 1px; height: 1px; overflow: hidden; position: absolute; top: 0; left: -9999px; text-indent: -9999px;}
+.contain {width:1400px; height: 100%; margin: 0 auto;}

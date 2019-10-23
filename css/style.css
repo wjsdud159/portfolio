@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+#banner { background: #16304b; text-align: center;}
+#banner div h3{font-family:Cemetery; font-size: 70px; padding-top: 30px; color:#b4d330;}
+#banner a img {animation: bounce 2s infinite cubic-bezier(.50,.68,.42,.11); margin-top: 60px;}
+#banner .shadow {margin-top: 100px; animation: shadow 2s infinite cubic-bezier(.50,.68,.42,.11); }
+#banner .b_g img {position: absolute; right:700px; top:900px; margin-bottom: -629px;}
+#about {background :#e8e8de;}
+#about h3 {font-size: 100px; text-align: center; font-family: Monster; padding-top: 30px;}
+#about .clearfix {padding-top: 50px;}
+#about .clearfix img, #about .clearfix .profile {float: left;}
+#about img {margin-left: 45px;}
+#about .profile {font-size: 50px; font-family: UhBee; margin-left: 100px; padding-top: 70px;}
+#about .codepen{width: 100px; height: 100px; padding-top: 50px;}
+
+
+#illust {background: #a2caf0; text-align: center; }
+#illust h4 {font-size: 100px; font-family: Monster; padding-top: 30px; margin-bottom: 200px;}
+.itt, .itt li {display: inline-block;}
+.itt li {width: 400px;  float: left;}
+.itt li+li {margin-left: 40px;}
+.itt li a img {display: block; padding-bottom: 58px; animation: bounces 2s infinite cubic-bezier(.50,.50,.42,.11);   }
+.itt li img {animation: shadoww 2s infinite cubic-bezier(.50,.68,.42,.11);}
+
+
+#project {background: #ccc;margin: 0 auto; }
+#project h4 {font-size: 100px;padding-top: 30px; font-family: Monster; text-align: center;}
+#project img {margin-left: -8px; padding-top: 200px;}
+#project ul {margin-left: 1010px; font-size: 20px; position: absolute; top:550px; line-height: 2em;  font-family: NotoS;}
+#project ul span {color: #fe0000;}
+#project ul li:nth-child(1){font-size: 70px; font-weight: 700; font-family: Neo; margin-top: -94px;}
+#project ul li:nth-child(2){font-size: 20px; padding-top: 25px;}
+#project ul li:nth-child(3){font-size: 20px;padding-top: 20px;}
+#project ul::after {border: #000 solid 5px;}
+
+
+
+#site {background: url(../image/site_bg.gif) repeat-y center top;}
+#site h4{font-size: 100px; padding-top: 30px;font-family: Monster; text-align: center;}
+#site, #site ul,#site ul li {height: 100vh;}
+#site ul li {float: left; display: table; width: 33.3333%; text-align: center;}
+#site ul li:nth-child(1) {background: #f8c5c5;}
+#site ul li:nth-child(2) {background: #b9d7f0;}
+#site ul li:nth-child(3) {background: #d6d6d3;}
+#site ul li a {display: table-cell; vertical-align: middle;}
+
+@keyframes bounce{
+    0% { transform: translate(0, -10px);}
+    50%{transform: translate(0, 10px);}
+    100%{transform: translate(0, -10px);}
+}
+@keyframes shadow{
+    0% {transform: scale(0.5);}
+    50% {transform: scale(0.7);}
+    100% {transform: scale(0.5);}
+} 
+@keyframes bounces{
+    0% { transform: translate(0, -10px);}
+    30% { transform: translate(0, -10px);}
+    50%{transform: translate(0, 10px);}
+    80% { transform: translate(0, -10px);}
+    100%{transform: translate(0, -10px);}
+}
+@keyframes shadoww{
+    0% {transform: scale(0.3);}
+    50% {transform: scale(0.7);}
+    100% {transform: scale(0.3);}
+}
+
