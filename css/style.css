@@ -1,10 +1,11 @@
 @charset "utf-8";
 
 #banner { background: #16304b; text-align: center;}
+#banner .contain {position: relative;}
 #banner div h3{font-family:Cemetery; font-size: 70px; padding-top: 30px; color:#b4d330;}
 #banner a img {animation: bounce 2s infinite cubic-bezier(.50,.68,.42,.11); margin-top: 60px;}
 #banner .shadow {margin-top: 100px; animation: shadow 2s infinite cubic-bezier(.50,.68,.42,.11); }
-#banner .b_g img {position: absolute; right:700px; top:900px; margin-bottom: -629px;}
+#banner .b_g {position: absolute; right:0px; top:200px; }
 #about {background :#e8e8de;}
 #about h3 {font-size: 100px; text-align: center; font-family: Monster; padding-top: 30px;}
 #about .clearfix {padding-top: 50px;}
