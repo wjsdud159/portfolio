@@ -1,22 +1,25 @@
 @charset "utf-8";
+html.md_open, html.md_open body{width: 100%; height: 100% !important; overflow: hidden !important;}
 
-#banner { background: #16304b; text-align: center;}
+#banner { background: #2c3b4e; text-align: center;}
 #banner .contain {position: relative;}
-#banner div h3{font-family:Cemetery; font-size: 70px; padding-top: 30px; color:#b4d330;}
-#banner a img {animation: bounce 2s infinite cubic-bezier(.50,.68,.42,.11); margin-top: 60px;}
-#banner .shadow {margin-top: 100px; animation: shadow 2s infinite cubic-bezier(.50,.68,.42,.11); }
-#banner .b_g {position: absolute; right:0px; top:200px; }
-#about {background :#e8e8de;}
-#about h3 {font-size: 100px; text-align: center; font-family: Monster; padding-top: 30px;}
+#banner div h3{font-family:Cemetery; font-size: 70px;  color:#b4d330;}
+#banner .d_d img {animation: bounce 2s infinite cubic-bezier(.50,.68,.42,.11); margin-top: 60px;}
+#banner .shadow  {margin-top: 100px; animation: shadow 2s infinite cubic-bezier(.50,.68,.42,.11); }
+
+
+
+#about {background :#fff;}
+#about h3 {font-size: 100px; text-align: center; font-family: Monster; }
 #about .clearfix {padding-top: 50px;}
 #about .clearfix img, #about .clearfix .profile {float: left;}
 #about img {margin-left: 45px;}
-#about .profile {font-size: 50px; font-family: UhBee; margin-left: 100px; padding-top: 70px;}
-#about .codepen{width: 100px; height: 100px; padding-top: 50px;}
+#about .profile {font-size: 30px;  margin-left: 100px; padding-top: 143px; font-family:롯데마트행복; font-weight: 200; line-height: 2;}
+#about .codepen{width: 100px; height: 100px; padding-top: 50px; color:#fff;}
 
 
 #illust {background: #a2caf0; text-align: center; }
-#illust h4 {font-size: 100px; font-family: Monster; padding-top: 30px; margin-bottom: 200px;}
+#illust h4 {font-size: 100px; font-family: Monster;  margin-bottom: 200px;}
 .itt, .itt li {display: inline-block;}
 .itt li {width: 400px;  float: left;}
 .itt li+li {margin-left: 40px;}
@@ -25,7 +28,7 @@
 
 
 #project {background: #ccc;margin: 0 auto; }
-#project h4 {font-size: 100px;padding-top: 30px; font-family: Monster; text-align: center;}
+#project h4 {font-size: 100px; font-family: Monster; text-align: center;}
 #project img {margin-left: -8px; padding-top: 200px;}
 #project ul {margin-left: 1010px; font-size: 20px; position: absolute; top:550px; line-height: 2em;  font-family: NotoS;}
 #project ul span {color: #fe0000;}
@@ -37,14 +40,33 @@
 
 
 #site {background: url(../image/site_bg.gif) repeat-y center top;}
-#site h4{font-size: 100px; padding-top: 30px;font-family: Monster; text-align: center;}
+#site h4{position: absolute;top:70px;left:0; width: 100%;  font-size: 100px; font-family: Monster; text-align: center;}
 #site, #site ul,#site ul li {height: 100vh;}
-#site ul li {float: left; display: table; width: 33.3333%; text-align: center;}
+#site ul li {float: left; display: table; width: 33.3333%; text-align: center; padding-top: 200px; box-sizing: border-box;}
 #site ul li:nth-child(1) {background: #f8c5c5;}
 #site ul li:nth-child(2) {background: #b9d7f0;}
-#site ul li:nth-child(3) {background: #d6d6d3;}
+#site ul li:nth-child(3) {background: #d6d6d3; }
 #site ul li a {display: table-cell; vertical-align: middle;}
+button a {display: block; width: 200px; height: 50px; color:#fff; background: #000;font-size: 20px; line-height: 2.5;}
 
+
+/*모달창*/
+#dim, .modal_cnt{position: fixed;top: 0;left: 0;right: 0;bottom: 0;}
+#dim{display: none;background: rgba(0,0,0,0.5);}
+.modal_cnt{visibility: hidden;  overflow-y:auto;}
+.md_area {width: 1400px; margin: 0 auto;background: #fff;}
+.modal_cnt .close_btn{position: fixed;top: 20px;right: 50px;width: 50px;height: 50px;background: #e8a0f1;}
+
+.main_tab{padding:50px 0px;}
+.main_tab ul {width: 500px; margin: 0 auto 100px;}
+.main_tab ul:after {content: ""; display: block; clear:both;}
+.main_tab ul li {display: inline-block;line-height: 32px; padding: 0 30px; background: #ffcccc; margin: 0 20px; cursor: pointer;}
+.main_tab .tabpanel{display: none;height: 400px;font-size: 50px}
+.main_tab .tabpanel.active{display: block;background: pink;}/* 선택되어진 탭패널 */
+
+
+
+/*animation효과*/
 @keyframes bounce{
     0% { transform: translate(0, -10px);}
     50%{transform: translate(0, 10px);}

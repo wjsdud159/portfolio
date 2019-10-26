@@ -64,6 +64,32 @@
         url("../font/Cemetery\ Picnic.otf") format("woff"),
         url("../font/Cemetery\ Picnic.otf") format("truetype");
 }
+@font-face{
+    font-family:롯데마트행복;
+    font-weight: 400;
+    src: url("../font/12롯데마트행복Light.ttf");
+    src: local("※"), 
+        url("../font/12롯데마트행복Light.ttf") format("woff"),
+        url("../font12롯데마트행복Light.ttf") format("truetype");
+}
+@font-face{
+    font-family:롯데마트행복;
+    font-weight: 400;
+    src: url("../font/12롯데마트행복Bold.ttf");
+    src: local("※"), 
+        url("../font/12롯데마트행복Bold.ttf") format("woff"),
+        url("../font/12롯데마트행복Bold.ttf") format("truetype");
+}
+@font-face{
+    font-family:롯데마트행복;
+    font-weight: 400;
+    src: url("../font/12롯데마트드림Medium.ttf");
+    src: local("※"), 
+        url("../font/12롯데마트드림Medium.ttf") format("woff"),
+        url("../font/12롯데마트드림Medium.ttf") format("truetype");
+}
+
+
 
 
 
@@ -74,11 +100,11 @@ h1, h2, h3, h4, h5, h6 {font-size: 100%; font-weight: normal;}
 header, nav, aside, section, article, footer {display: block;}
 body {color: #000;}
 ul {list-style: none;}
-a:link, a:visited, a:hover, a:active {text-decoration: none; color: inherit;}
+a:link, a:visited, a:hover, a:active {text-decoration: none; }
 button {background: none; border: none; cursor: pointer;}
 img {vertical-align: top; border: none; max-width:100%;}
 strong {font-style: normal; font-weight: normal;}
-
+h3,h4 {padding-top: 70px;}
 
 /* common class */
 .clearfix {content:''; display: block; clear: both;}
