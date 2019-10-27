@@ -12,7 +12,7 @@ h3{padding: 0;}
 
 .text {padding-top: 1535px; margin-left: 1100px;}
 .text h2{font-size: 80px; font-family: NotoS; font-weight: 700; padding-bottom: 20px;}
-.text p {font-size: 30px; line-height: 2;}
+.text p {font-size: 30px; line-height: 2; font-weight: 700;}
 .text p span {color:#f92f2f;}
 
 /*cnt_start*/
@@ -24,9 +24,18 @@ h3{padding: 0;}
 #cnt_start .sitee h3 {padding-top: 100px;} 
 #cnt_start .sitee p{padding-top: 36px; line-height: 60px;}
 
-#cnt_start .vision h3, #cnt_start .color h3, #cnt_start .font h3{padding-bottom: 100px;}
+#cnt_start .vision h3, #cnt_start .color h3, #cnt_start .font h3 ,#cnt_start .wire h3{padding-bottom: 100px;}
 
-@keyframes imgMove { 
+#cnt_start .wire{padding-top: 300px; padding-bottom: 150px;}
+
+/*cnt_end*/
+#cnt_end{background: #cccccc; padding-top: 150px;}
+#cnt_end h3{ font-size: 70px; font-weight: 700; color: #000; padding-bottom: 50px;}
+#cnt_end .contain{padding-bottom: 200px;}
+#cnt_end .end_txt{height: 200px; background: #000;  text-align: center;}
+#cnt_end .end_txt h4{font-size: 70px; font-weight: 700; color: #fff;}
+
+@keyframes imgMove {   
     0% {transform: translateY(0);}
     8% {transform: translateY(0);}
 
