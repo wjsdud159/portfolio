@@ -1,5 +1,5 @@
 #an_b {text-align: center;}
-
+#an_b .main_bg {height: 100vh;}
 #an_b ul li:nth-child(2) img { position: absolute; bottom: 455px; right: 40px; animation: bounce 2s infinite cubic-bezier(.50,.68,.42,.11);}
 #an_b ul li:nth-child(3) img { position: absolute; bottom: 450px; left: 40px; animation: bouncee 2s infinite cubic-bezier(.50,.68,.42,.11);}
 #an_b ul li:nth-child(4) img {width: 387px; height: 545px; position: absolute; bottom: 300px; left:-300px;
@@ -12,7 +12,6 @@
       
   }
 #an_b ul li:nth-child(5) img { position: absolute; bottom: 200px; right: 500px; animation: bounceee 2s infinite cubic-bezier(.50,.68,.42,.11);}
-
 
 
 
