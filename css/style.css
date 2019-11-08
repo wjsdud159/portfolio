@@ -1,24 +1,26 @@
 @charset "utf-8";
 html.md_open, html.md_open body{width: 100%; height: 100% !important; overflow: hidden !important;}
 
-#banner { background: #2c3b4e; text-align: center;}
+body{cursor: url(../image/c_p.png), auto;}
+
+#banner { background: #f5cec7; text-align: center; }
 #banner .contain {position: relative;}
-#banner div h3{font-family:Cemetery; font-size: 70px;  color:#b4d330;}
+#banner div h3{ font-size: 70px;  color:#fff; font-family:eacologica; padding-top: 70px;}
 #banner .d_d img {animation: bounce 2s infinite cubic-bezier(.50,.68,.42,.11); margin-top: 60px;}
 #banner .shadow  {margin-top: 100px; animation: shadow 2s infinite cubic-bezier(.50,.68,.42,.11); }
 
 
 
-#about {background :#fff;}
+#about {background:#c9bbc8;}
 #about h3 {font-size: 100px; text-align: center; font-family: Monster; }
 #about .clearfix {padding-top: 50px;}
 #about .clearfix img, #about .clearfix .profile {float: left;}
-#about img {margin-left: 45px;}
 #about .profile {font-size: 30px;  margin-left: 100px; padding-top: 143px; font-family:롯데마트행복; font-weight: 200; line-height: 2;}
 #about .codepen{width: 100px; height: 100px; padding-top: 50px; color:#fff;}
 
 
 #illust {background: #a2caf0; text-align: center; }
+#illust p {padding-bottom: 10px;  font-size: 30px;  font-family:GenAI102;}
 #illust h4 {font-size: 100px; font-family: Monster;  margin-bottom: 200px;}
 .itt, .itt li {display: inline-block;}
 .itt li {width: 400px;  float: left;}
@@ -27,7 +29,7 @@ html.md_open, html.md_open body{width: 100%; height: 100% !important; overflow: 
 .itt li img {animation: shadoww 2s infinite cubic-bezier(.50,.68,.42,.11);}
 
 
-#project {background: #ccc;margin: 0 auto; }
+#project {background: #d7cfc4;margin: 0 auto; }
 #project h4 {font-size: 100px; font-family: Monster; text-align: center;}
 #project img {margin-left: -8px; padding-top: 200px;}
 #project ul {margin-left: 1010px; font-size: 20px; position: absolute; top:550px; line-height: 2em;  font-family: NotoS;}
@@ -36,7 +38,7 @@ html.md_open, html.md_open body{width: 100%; height: 100% !important; overflow: 
 #project ul li:nth-child(2){font-size: 20px; padding-top: 25px;}
 #project ul li:nth-child(3){font-size: 20px;padding-top: 20px;}
 #project ul::after {border: #000 solid 5px;}
-
+button a {display: block; width: 250px; height: 50px; color:#fff; background: #000;font-size: 20px; line-height: 2.5;}
 
 
 #site {background: url(../image/site_bg.gif) repeat-y center top;}
@@ -44,10 +46,10 @@ html.md_open, html.md_open body{width: 100%; height: 100% !important; overflow: 
 #site, #site ul,#site ul li {height: 100vh;}
 #site ul li {float: left; display: table; width: 33.3333%; text-align: center; padding-top: 200px; box-sizing: border-box;}
 #site ul li:nth-child(1) {background: #f8c5c5;}
-#site ul li:nth-child(2) {background: #b9d7f0;}
-#site ul li:nth-child(3) {background: #d6d6d3; }
+#site ul li:nth-child(2) {background:#d6d6d3;}
+#site ul li:nth-child(3) {background:#b9d7f0; }
 #site ul li a {display: table-cell; vertical-align: middle;}
-button a {display: block; width: 200px; height: 50px; color:#fff; background: #000;font-size: 20px; line-height: 2.5;}
+
 
 
 /*모달창*/
@@ -56,14 +58,14 @@ button a {display: block; width: 200px; height: 50px; color:#fff; background: #0
 .modal_cnt{visibility: hidden;  overflow-y:auto;}
 .md_area {width: 1400px; margin: 0 auto;background: #fff;}
  .modal_cnt .close_btn{position: fixed;/*width: 50px;height: 50px;background: #e8a0f1;*/ background: url(../../portfolio/image/close.png)no-repeat;top: 20px;right: 50px; width: 100px; height: 250px;} 
-
+ 
 .main_tab{padding:50px 0px;}
 .main_tab ul {width: 500px; margin: 0 auto 100px;}
 .main_tab ul:after {content: ""; display: block; clear:both;}
-.main_tab ul li {display: inline-block;line-height: 32px; padding: 0 30px; background: #ffcccc; margin: 0 20px; cursor: pointer;}
+.main_tab ul li {display: inline-block;line-height: 32px; padding: 0 30px;
+     background: #5d151c; margin: 0 20px; cursor: pointer; color:#fff;}
 .main_tab .tabpanel{display: none;height: 400px;font-size: 50px}
 .main_tab .tabpanel.active{display: block;background: pink;}/* 선택되어진 탭패널 */
-
 
 
 /*animation효과*/

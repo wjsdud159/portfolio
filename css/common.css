@@ -57,12 +57,12 @@
         url("../font/UhBee\ puding.ttf") format("truetype");
 }
 @font-face{
-    font-family:Cemetery;
+    font-family:eacologica;
     font-weight: 400;
-    src: url("../font/Cemetery\ Picnic.otf  ");
+    src: url("../font/eacologica-round-slab-ffp.ttf");
     src: local("※"), 
-        url("../font/Cemetery\ Picnic.otf") format("woff"),
-        url("../font/Cemetery\ Picnic.otf") format("truetype");
+        url("../font/eacologica-round-slab-ffp.ttf") format("woff"),
+        url("../font/eacologica-round-slab-ffp.ttf") format("truetype");
 }
 @font-face{
     font-family:롯데마트행복;
@@ -88,6 +88,32 @@
         url("../font/12롯데마트드림Medium.ttf") format("woff"),
         url("../font/12롯데마트드림Medium.ttf") format("truetype");
 }
+@font-face{
+    font-family:TypoSlabserif;
+    font-weight: 400;
+    src: url("../font/TypoSlabserif-Light.ttf");
+    src: local("※"), 
+        url("../font/TypoSlabserif-Light.ttf") format("woff"),
+        url("../font/TypoSlabserif-Light.ttf") format("truetype");
+}
+@font-face{
+    font-family:GenAI102;
+    font-weight: 400;
+    src: url("../font/GenAI102.TTF.ttf");
+    src: local("※"), 
+        url("../font/GenAI102.TTF") format("woff"),
+        url("../font/GenAI102.TTF") format("truetype");
+}
+@font-face{
+    font-family:GenAI102;
+    font-weight: 400;
+    src: url("../font/Letters\ for\ Learners\ Dots.ttf");
+    src: local("※"), 
+        url("../font/font/Letters\ for\ Learners\ Dots.ttf") format("woff"),
+        url("../font/font/Letters\ for\ Learners\ Dots.ttf") format("truetype");
+}
+
+
 
 
 
