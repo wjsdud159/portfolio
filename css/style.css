@@ -10,18 +10,22 @@ body{cursor: url(../image/c_p.png), auto;}
 #banner .shadow  {margin-top: 100px; animation: shadow 2s infinite cubic-bezier(.50,.68,.42,.11); }
 
 
-
+/*about*/
 #about {background:#c9bbc8;}
 #about h3 {font-size: 100px; text-align: center; font-family: Monster; }
-#about .clearfix {padding-top: 50px;}
-#about .clearfix img, #about .clearfix .profile {float: left;}
-#about .profile {font-size: 30px;  margin-left: 100px; padding-top: 143px; font-family:롯데마트행복; font-weight: 200; line-height: 2;}
-#about .codepen{width: 100px; height: 100px; padding-top: 50px; color:#fff;}
+#about .about_img {display: block;margin: 0 auto; padding-top: 50px;}
+
+#about .contain ul{padding-top:20px ; text-align: center;}
+#about .contain ul li{text-align: center; display: inline-block; border-radius:15px; font-size: 20px;  font-family: NotoS;  font-weight: 500;width: 120px; font-size: 20px; box-sizing: border-box; border-radius:15px; background: #4635C5; padding: 6px 0; transition: 0.3s;}
+#about .contain ul li+li{margin-left: 20px;}
+#about .contain ul li a{color: #fff;}
+#about .contain ul li:hover{border-radius:0}
 
 
 #illust {background: #a2caf0; text-align: center; }
-#illust p {padding-bottom: 10px;  font-size: 30px;  font-family:GenAI102;}
-#illust h4 {font-size: 100px; font-family: Monster;  margin-bottom: 200px;}
+#illust p {padding-bottom: 40px;  font-size: 28px;  font-family: NotoS; text-transform: uppercase; font-weight: 700;}
+#illust h4 {font-size: 100px; font-family: Monster;  margin-bottom: 140px;}
+#illust span{display: block; font-size: 16px; font-family: NotoS; font-weight: 700;}
 .itt, .itt li {display: inline-block;}
 .itt li {width: 400px;  float: left;}
 .itt li+li {margin-left: 40px;}
@@ -31,18 +35,22 @@ body{cursor: url(../image/c_p.png), auto;}
 
 #project {background: #d7cfc4;margin: 0 auto; }
 #project h4 {font-size: 100px; font-family: Monster; text-align: center;}
+#project h4 span{display: block; font-size: 16px; font-family: NotoS; font-weight: 700;}
 #project img {margin-left: -8px; padding-top: 200px;}
-#project ul {margin-left: 1010px; font-size: 20px; position: absolute; top:550px; line-height: 2em;  font-family: NotoS;}
+#project ul {margin-left: 1010px; font-size: 20px; position: absolute; top:550px; line-height: 2em;  font-family: NotoS; font-weight: 700;}
 #project ul span {color: #fe0000;}
-#project ul li:nth-child(1){font-size: 70px; font-weight: 700; font-family: Neo; margin-top: -94px;}
-#project ul li:nth-child(2){font-size: 20px; padding-top: 25px;}
+#project ul li:nth-child(1){font-size: 70px; font-weight: 700; font-family: Neo; margin-top: -94px; padding-bottom: 20px;}
+#project ul li:nth-child(2){font-size: 24px; padding-top: 25px;}
 #project ul li:nth-child(3){font-size: 20px;padding-top: 20px;}
 #project ul::after {border: #000 solid 5px;}
-button a {display: block; width: 250px; height: 50px; color:#fff; background: #000;font-size: 20px; line-height: 2.5;}
+button a {margin-top: 50px; display: block; width: 220px; height: 45px; line-height: 45px; color:#fff; background: #000;font-size: 18px; 
+    line-height: 2.5; border-radius: 20px; transition: 0.3s;}
+button a:hover{border-radius:0;}
 
 
 #site {background: url(../image/site_bg.gif) repeat-y center top;}
-#site h4{position: absolute;top:70px;left:0; width: 100%;  font-size: 100px; font-family: Monster; text-align: center;}
+#site h4{position: absolute;top:30px;left:0; width: 100%;  font-size: 100px; font-family: Monster; text-align: center;}
+#site h4 span{display: block; font-size: 16px; font-family: NotoS; font-weight: 700;}
 #site, #site ul,#site ul li {height: 100vh;}
 #site ul li {float: left; display: table; width: 33.3333%; text-align: center; padding-top: 200px; box-sizing: border-box;}
 #site ul li:nth-child(1) {background: #f8c5c5;}
